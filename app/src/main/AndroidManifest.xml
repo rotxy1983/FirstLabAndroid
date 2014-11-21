@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rosario.firstlabandroid" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.rosario.firstlabandroid.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.rosario.firstlabandroid.NameActivity"
+            android:label="@string/title_activity_name">
+        </activity>
+        <activity
+            android:name="com.example.rosario.firstlabandroid.SurnameActivity"
+            android:label="@string/title_activity_surname">
+        </activity>
+        <activity
+            android:name="com.example.rosario.firstlabandroid.AgeActivity"
+            android:label="@string/title_activity_age">
+        </activity>
+        <activity
+            android:name="com.example.rosario.firstlabandroid.ImageActivity"
+            android:label="@string/title_activity_image">
+        </activity>
+    </application>
+
+</manifest>
